@@ -11,7 +11,7 @@ app = create_app()
 
 with app.app_context():
     new_student = Student(
-        university_id='441000444',          # الرقم الجامعي
+        university_id='441000444',          #الرقم الجامعي
         full_name='Khalid Alharbi',         # الاسم الكامل
         email='khalid@university.edu',      # الإيميل
         major='Information Technology'      # التخصص
