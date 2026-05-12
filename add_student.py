@@ -10,7 +10,6 @@ from app import create_app
 app = create_app()
 
 with app.app_context():
-    # بيانات الطالب الجديد - غيّرها كما تريد
     new_student = Student(
         university_id='441000444',          # الرقم الجامعي
         full_name='Khalid Alharbi',         # الاسم الكامل
